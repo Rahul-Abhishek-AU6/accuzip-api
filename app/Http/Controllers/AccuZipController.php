@@ -955,14 +955,14 @@ class AccuZipController extends Controller
 
         $data = [
             $request->datatype => [
-                'NAICS' => '511210,423430',
+                'NAICS' => '511210,423450',
                 'Physical_state' => 'CA'
             ]
         ];
 
         $dataForZip = [
             $request->datatype => [
-                'NAICS' => '511210,423430',//$request->lat.','.$request->lng,
+                'NAICS' => '511210,423450',//$request->lat.','.$request->lng,
                 'Physical_state' => 'CA',
                 'count_by_zipcode' => [
                     'GroupFields' => [
